@@ -1,3 +1,26 @@
-let age = 30 
+// let age = 30 
 
-console.log(age)
+//Define type of a variable using TypeScript 
+
+let age: number = 30
+let firstName: string = "Arefin"
+let isFictional: boolean
+
+age = 31
+firstName = "Mobasher"
+isFictional = true
+
+
+let planet = "Earth"
+let moons = 1
+let isLearge = false
+
+
+planet = "Saturn"
+moons = 145
+isLearge = true
+
+
+
+
+// console.log(age)
