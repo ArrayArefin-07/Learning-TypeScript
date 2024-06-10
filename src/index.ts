@@ -36,3 +36,8 @@ console.log("Hello, Bangladesh..!")
 
 // arrays
 
+let names: string[] = ['Mobasher', 'Arefin', 'Talha']
+let ages: number[] = [25, 28, 24]
+
+
+

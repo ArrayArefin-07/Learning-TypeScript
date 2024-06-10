@@ -20,3 +20,5 @@ something = null;
 anotherThing = undefined;
 console.log("Hello, Bangladesh..!");
 // arrays
+let names = ['Mobasher', 'Arefin', 'Talha'];
+let ages = [25, 28, 24];
