@@ -18,4 +18,5 @@ let something;
 let anotherThing;
 something = null;
 anotherThing = undefined;
-console.log("Hello, World..!");
+console.log("Hello, Bangladesh..!");
+// arrays
