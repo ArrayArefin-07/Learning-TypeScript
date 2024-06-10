@@ -107,3 +107,14 @@ function addAllNumbers(items: number[]): void {
 
 addAllNumbers([5, 7, 9, 11, 3, 2, 1])
 
+
+// return type inference 
+
+
+function formatGreeting(name: string, greeting: string): string {{
+    return `${greeting}, ${name}`
+}}
+
+const result = formatGreeting('Arefin', 'Hello')
+
+

@@ -63,3 +63,10 @@ function addAllNumbers(items) {
     console.log(total);
 }
 addAllNumbers([5, 7, 9, 11, 3, 2, 1]);
+// return type inference 
+function formatGreeting(name, greeting) {
+    {
+        return `${greeting}, ${name}`;
+    }
+}
+const result = formatGreeting('Arefin', 'Hello');
