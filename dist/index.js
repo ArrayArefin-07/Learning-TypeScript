@@ -22,3 +22,6 @@ console.log("Hello, Bangladesh..!");
 // arrays
 let names = ['Mobasher', 'Arefin', 'Talha'];
 let ages = [25, 28, 24];
+// push valu at existing array 
+names.push('browser');
+ages.push(35);

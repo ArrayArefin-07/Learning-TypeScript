@@ -39,5 +39,7 @@ console.log("Hello, Bangladesh..!")
 let names: string[] = ['Mobasher', 'Arefin', 'Talha']
 let ages: number[] = [25, 28, 24]
 
-
+// push valu at existing array 
+names.push('browser')
+ages.push(35)
 
