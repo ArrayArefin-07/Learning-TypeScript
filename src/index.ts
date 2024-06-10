@@ -51,3 +51,10 @@ fruits.push('lichi')
 
 const f = fruits[3]
 
+let things = [1, true, 'hello']
+
+const t = things[0]
+
+
+
+
