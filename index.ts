@@ -21,6 +21,14 @@ moons = 145
 isLearge = true
 
 
+// null & undefined 
+
+let something: null
+let anotherThing: undefined
+
+
+something = null 
+anotherThing = undefined
 
 
 // console.log(age)
