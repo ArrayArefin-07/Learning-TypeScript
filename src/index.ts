@@ -82,3 +82,19 @@ person.name = 'Arefin'
 person.score = 77
 
 const score = person.score
+
+
+// function 
+
+function addTwoNumbers(a: number, b: number): number {
+    return a + b
+}
+
+// function using arrow function 
+
+const subtractTwoNumbers = (a: number, b: number): number => {
+    return a - b
+}
+
+addTwoNumbers(3, 9)
+subtractTwoNumbers(3, 9)
