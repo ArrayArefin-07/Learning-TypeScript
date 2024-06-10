@@ -56,5 +56,12 @@ let things = [1, true, 'hello']
 const t = things[0]
 
 
+// object literals 
+
+let user: {firstName: string, age: number, id: number} = {
+    firstName: 'Arefin',
+    age: 24,
+    id: 1
+}
 
 
