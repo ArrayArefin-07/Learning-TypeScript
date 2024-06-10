@@ -40,3 +40,10 @@ let user = {
 // change value of object 
 user.firstName = 'Talha';
 user.id = 7;
+// type inference with object literals 
+let person = {
+    name: 'Mobasher',
+    score: 33
+};
+person.name = 'Arefin';
+person.score = 77;
