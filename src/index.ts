@@ -31,5 +31,5 @@ something = null
 anotherThing = undefined
 
 
-// console.log(age)
+console.log("Hello")
 
