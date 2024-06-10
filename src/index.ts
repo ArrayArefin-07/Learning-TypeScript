@@ -98,3 +98,12 @@ const subtractTwoNumbers = (a: number, b: number): number => {
 
 addTwoNumbers(3, 9)
 subtractTwoNumbers(3, 9)
+
+
+function addAllNumbers(items: number[]): void {
+    const total = items.reduce((a, c) => a + c, 0)
+    console.log(total)
+}
+
+addAllNumbers([5, 7, 9, 11, 3, 2, 1])
+
