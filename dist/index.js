@@ -47,3 +47,4 @@ let person = {
 };
 person.name = 'Arefin';
 person.score = 77;
+const score = person.score;
