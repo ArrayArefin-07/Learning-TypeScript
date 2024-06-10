@@ -25,3 +25,7 @@ let ages = [25, 28, 24];
 // push valu at existing array 
 names.push('browser');
 ages.push(35);
+// type inference with arrays
+let fruits = ['apples', 'pears', 'bananas', 'mangos'];
+fruits.push('lichi');
+const f = fruits[3];
