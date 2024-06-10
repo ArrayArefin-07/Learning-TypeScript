@@ -64,4 +64,9 @@ let user: {firstName: string, age: number, id: number} = {
     id: 1
 }
 
+// change value of object 
+
+user.firstName = 'Talha'
+user.id = 7
+
 

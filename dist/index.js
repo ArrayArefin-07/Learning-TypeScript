@@ -37,3 +37,6 @@ let user = {
     age: 24,
     id: 1
 };
+// change value of object 
+user.firstName = 'Talha';
+user.id = 7;
