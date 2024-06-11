@@ -293,3 +293,15 @@ let anotherId: Id
 
 anotherId = 'edisty007'
 anotherId = 7
+
+// union type pitfall 
+
+function swapIdType(id: Id): Id {
+    // can only use props and methods common to
+    // both number and string type
+    // parseInt(Id)  --> not allowed 
+
+    return id
+}
+
+swapIdType(5)
