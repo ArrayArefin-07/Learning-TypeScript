@@ -113,3 +113,4 @@ const [lat, long] = useCoords();
 let regUser;
 regUser = ['Arefin', 24];
 console.log(regUser[0]);
+const authorOne = { name: 'Arefin', avater: '/img/mario.png' };

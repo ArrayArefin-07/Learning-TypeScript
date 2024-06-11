@@ -193,3 +193,12 @@ let regUser: [name: string, age: number]
 regUser = ['Arefin', 24]
 console.log(regUser[0])
 
+
+// ----------- interfaces part -------------
+
+interface Author {
+    name: string,
+    avater: string
+}
+
+const authorOne: Author = {name: 'Arefin', avater: '/img/mario.png'}
