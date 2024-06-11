@@ -144,3 +144,10 @@ function formateUser(user) {
 }
 formateUser(userOne);
 formateUser({ name: 'Mobasher', score: 100 });
+// --------------Union types----------------
+let someId;
+someId = 1;
+someId = '2';
+let email;
+email = 'mobasherarefint2001@gmail.com';
+email = null;

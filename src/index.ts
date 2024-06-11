@@ -271,3 +271,18 @@ function formateUser(user: User): void {
 
 formateUser(userOne)
 formateUser({name: 'Mobasher', score: 100})
+
+
+
+
+// --------------Union types----------------
+
+let someId: number | string
+
+someId = 1
+someId = '2'
+
+let email: string | null 
+
+email = 'mobasherarefint2001@gmail.com'
+email = null
