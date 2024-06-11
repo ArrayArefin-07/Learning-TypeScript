@@ -227,3 +227,10 @@ function createPost(post: Post): void {
 }
 
 createPost(newPost)
+
+
+// interface with arrays
+
+let posts: Post[] = []
+
+posts.push(newPost)

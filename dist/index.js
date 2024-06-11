@@ -126,3 +126,6 @@ function createPost(post) {
     console.log(`Created post ${post.title} by ${post.author.name}`);
 }
 createPost(newPost);
+// interface with arrays
+let posts = [];
+posts.push(newPost);
