@@ -186,3 +186,10 @@ function useCoords(): [number, number] {
 const [lat, long] = useCoords() 
 
 
+// named tuples 
+
+let regUser: [name: string, age: number]
+
+regUser = ['Arefin', 24]
+console.log(regUser[0])
+

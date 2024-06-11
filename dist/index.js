@@ -109,3 +109,7 @@ function useCoords() {
     return [lat, long];
 }
 const [lat, long] = useCoords();
+// named tuples 
+let regUser;
+regUser = ['Arefin', 24];
+console.log(regUser[0]);
