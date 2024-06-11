@@ -142,3 +142,17 @@ let someThings: any[] = ['hello', true, 30, null]
 
 someThings.push({id: 123})
 
+
+// functions & any 
+
+function addTogether(value: any): any {
+    return value + value
+}
+
+const resultOne = addTogether('hello')
+const resultTwo = addTogether(3)
+
+//any type is usefull when migrating from js to ts 
+// because using any won't cause error initially 
+
+
