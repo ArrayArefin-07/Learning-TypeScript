@@ -174,3 +174,11 @@ function swapIdType2(id) {
 const idOne = swapIdType2(1);
 const idTwo = swapIdType2('2');
 console.log(idOne, idTwo);
+function logDetails(value) {
+    if (value.type === 'user') {
+        console.log(value.email, value.username);
+    }
+    if (value.type === 'person') {
+        console.log(value.firstname, value.age);
+    }
+}

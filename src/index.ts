@@ -323,3 +323,31 @@ const idOne = swapIdType2(1)
 const idTwo = swapIdType2('2')
 
 console.log(idOne, idTwo)
+
+
+
+// --- tagged interfaces ------
+
+// another example using interfaces 
+
+interface User2 {
+    type: 'user'
+    username: string
+    email: string
+    id: Id
+} 
+interface person2 {
+    type: 'person'
+    firstname: string
+    age: number
+    id: Id
+}
+
+function logDetails(value: User2 | person2): void {
+    if (value.type === 'user') {
+        console.log(value.email, value.username)
+    }
+    if (value.type === 'person') {
+        console.log(value.firstname, value.age)
+    }
+}
