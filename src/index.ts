@@ -136,3 +136,9 @@ title = {
 title = 'false'
 
 
+//any type in Arrays 
+
+let someThings: any[] = ['hello', true, 30, null]
+
+someThings.push({id: 123})
+

@@ -82,3 +82,6 @@ title = {
     hello: 'world'
 };
 title = 'false';
+//any type in Arrays 
+let someThings = ['hello', true, 30, null];
+someThings.push({ id: 123 });
