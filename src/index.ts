@@ -250,3 +250,7 @@ function getRandomColor(): Rgb {
 
     return[r, g, b]
 }
+
+const colorOne = getRandomColor()
+const colorTwo = getRandomColor()
+console.log(colorOne, colorTwo)
