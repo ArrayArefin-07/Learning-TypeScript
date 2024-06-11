@@ -162,3 +162,15 @@ function swapIdType(id) {
     return id;
 }
 swapIdType(5);
+// --------------- type guards -----------
+function swapIdType2(id) {
+    if (typeof id === 'string') {
+        return parseInt(id);
+    }
+    else {
+        return id.toString();
+    }
+}
+const idOne = swapIdType2(1);
+const idTwo = swapIdType2('2');
+console.log(idOne, idTwo);
