@@ -254,3 +254,14 @@ function getRandomColor(): Rgb {
 const colorOne = getRandomColor()
 const colorTwo = getRandomColor()
 console.log(colorOne, colorTwo)
+
+
+// example 2 - object literal 
+
+type User = {
+    name: string
+    score: number
+}
+
+const userOne: User = {name: 'Arefin', score: 77}
+

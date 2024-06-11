@@ -138,3 +138,4 @@ function getRandomColor() {
 const colorOne = getRandomColor();
 const colorTwo = getRandomColor();
 console.log(colorOne, colorTwo);
+const userOne = { name: 'Arefin', score: 77 };
