@@ -118,3 +118,21 @@ function formatGreeting(name: string, greeting: string): string {{
 const result = formatGreeting('Arefin', 'Hello')
 
 
+
+// any type 
+// variable can be anytype
+
+let PersonAge: any
+// title can have any type
+let title
+
+PersonAge = 30
+PersonAge = false
+
+title = 25 
+title = {
+    hello: 'world'
+}
+title = 'false'
+
+
