@@ -286,3 +286,10 @@ let email: string | null
 
 email = 'mobasherarefint2001@gmail.com'
 email = null
+
+
+type Id = number | string 
+let anotherId: Id
+
+anotherId = 'edisty007'
+anotherId = 7

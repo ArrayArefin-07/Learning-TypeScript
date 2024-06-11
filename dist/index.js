@@ -151,3 +151,6 @@ someId = '2';
 let email;
 email = 'mobasherarefint2001@gmail.com';
 email = null;
+let anotherId;
+anotherId = 'edisty007';
+anotherId = 7;
