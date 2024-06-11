@@ -202,3 +202,20 @@ interface Author {
 }
 
 const authorOne: Author = {name: 'Arefin', avater: '/img/mario.png'}
+
+interface Post {
+    title: string
+    body: string
+    tags: string[]
+    create_at: Date
+    author: Author
+}
+
+
+const newPost: Post = {
+    title: 'First Post',
+    body: 'something interested',
+    tags: ['gaming', 'tech'],
+    create_at: new Date(),
+    author: authorOne,
+}
