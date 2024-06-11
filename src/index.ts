@@ -265,3 +265,9 @@ type User = {
 
 const userOne: User = {name: 'Arefin', score: 77}
 
+function formateUser(user: User): void {
+    console.log(`${user.name} has a score of ${user.score}`)
+}
+
+formateUser(userOne)
+formateUser({name: 'Mobasher', score: 100})

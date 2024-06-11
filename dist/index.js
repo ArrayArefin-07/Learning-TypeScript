@@ -139,3 +139,8 @@ const colorOne = getRandomColor();
 const colorTwo = getRandomColor();
 console.log(colorOne, colorTwo);
 const userOne = { name: 'Arefin', score: 77 };
+function formateUser(user) {
+    console.log(`${user.name} has a score of ${user.score}`);
+}
+formateUser(userOne);
+formateUser({ name: 'Mobasher', score: 100 });
