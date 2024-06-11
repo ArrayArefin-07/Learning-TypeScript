@@ -213,9 +213,17 @@ interface Post {
 
 
 const newPost: Post = {
-    title: 'First Post',
+    title: 'My First Post',
     body: 'something interested',
     tags: ['gaming', 'tech'],
     create_at: new Date(),
     author: authorOne,
 }
+
+// interface as function argumrnt types
+
+function createPost(post: Post): void {
+    console.log(`Created post ${post.title} by ${post.author.name}`)
+}
+
+createPost(newPost)
