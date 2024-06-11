@@ -96,4 +96,8 @@ const resultTwo = addTogether(3);
 // ----------------
 // tuples 
 let person1 = ['Arefin', 24, true];
-// 
+// tuples examples 
+let hsla;
+hsla = [200, '100%', '50%', 1];
+let xy;
+xy = [94.7, 20.1];

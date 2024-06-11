@@ -164,5 +164,14 @@ const resultTwo = addTogether(3)
 let person1: [string, number, boolean] = ['Arefin', 24, true]
 
 
-// 
+// tuples examples 
+
+let hsla: [number, string, string, number]
+hsla = [200, '100%', '50%', 1]
+
+let xy: [number, number]
+xy = [94.7, 20.1]
+
+
+
 
