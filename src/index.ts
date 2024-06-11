@@ -156,3 +156,13 @@ const resultTwo = addTogether(3)
 // because using any won't cause error initially 
 
 
+
+// ----------------
+
+// tuples 
+
+let person1: [string, number, boolean] = ['Arefin', 24, true]
+
+
+// 
+

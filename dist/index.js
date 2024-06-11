@@ -93,3 +93,7 @@ const resultOne = addTogether('hello');
 const resultTwo = addTogether(3);
 //any type is usefull when migrating from js to ts 
 // because using any won't cause error initially 
+// ----------------
+// tuples 
+let person1 = ['Arefin', 24, true];
+// 
